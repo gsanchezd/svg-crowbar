@@ -159,9 +159,9 @@
         svg.setAttributeNS(prefix.xmlns, "xmlns", prefix.svg);
       }
 
-      if (!svg.hasAttributeNS(prefix.xmlns, "xmlns:xlink")) {
-        svg.setAttributeNS(prefix.xmlns, "xmlns:xlink", prefix.xlink);
-      }
+      // if (!svg.hasAttributeNS(prefix.xmlns, "xmlns:xlink")) {
+      //   svg.setAttributeNS(prefix.xmlns, "xmlns:xlink", prefix.xlink);
+      // }
 
       setInlineStyles(svg, emptySvgDeclarationComputed);
 
